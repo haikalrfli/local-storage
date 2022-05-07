@@ -1,5 +1,5 @@
 body {
-  background-color: #51c26f;
+  /* background-color: #51c26f; */
   width: 100%;
 }
 .btn {
@@ -29,10 +29,13 @@ body {
 }
 
 .container {
+  width: 200px;
+  margin: auto;
   position: relative;
   top: 300px;
   z-index: 100;
   color: rgb(231, 37, 37);
+  /* border: 2px solid black; */
 }
 
 #canvas {
@@ -41,4 +44,7 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 1;
+}
+label {
+  margin: auto;
 }

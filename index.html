@@ -8,15 +8,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
       <div class="btn">Click Here</div>
-      <div class="reset">reset</div>
-      <div class="box"></div>
-    </div>
-    <canvas id="canvas"></canvas>
+      <div class="reset">reset</div> -->
+      <div class="container">
 
-    <script src="https://unpkg.com/starback@2.0.1/dist/starback.js"></script>
-    <script>
+        <label for="">
+          <input type="text" id="input">
+          <button class="btn-input">Add</button>
+        </label>
+        <div class="box"></div>
+      </div>
+    <!-- </div> -->
+    <canvas id="canvas"></canvas>
+    
+<!-- 
+    <script src="https://unpkg.com/starback@2.0.1/dist/starback.js"></script> -->
+    <!-- <script>
       const canvas = document.getElementById('canvas');
       const starback = new Starback(canvas, {
         type: 'dot',
@@ -25,7 +33,7 @@
         backgroundColor: ['#51C26F'],
         randomOpacity: true,
         starColor: '#F2E901',
-      });
+      }); -->
     </script>
     <script src="script.js"></script>
   </body>

@@ -1,20 +1,30 @@
-const btn = document.querySelector('.btn');
+// const btn = document.querySelector('.btn');
+// const reset = document.querySelector('.reset');
+// const tes = document.querySelector('.tes');
+// let index = 0;
+// btn.addEventListener('click', function () {
+//   box.innerHTML = ++index;
+//   localStorage.setItem('index', index);
+// });
+// box.innerHTML = localStorage.getItem('index');
+// if (window.open('', '_self')) {
+//   index = localStorage.getItem('index');
+// }
+// reset.onclick = () => {
+//   index = 0;
+//   box.innerHTML = index;
+//   localStorage.setItem('index', index);
+// };
+
+const input = document.getElementById('input');
+const btnInput = document.querySelector('.btn-input');
 const box = document.querySelector('.box');
-const reset = document.querySelector('.reset');
-let index = 0;
-btn.addEventListener('click', function () {
-  box.innerHTML = ++index;
-  localStorage.setItem('index', index);
+btnInput.addEventListener('click', function () {
+  const txt = input.value;
+  box.innerHTML = txt;
+  localStorage.setItem('txt', txt);
 });
-box.innerHTML = localStorage.getItem('index');
-if (window.open('', '_self')) {
-  index = localStorage.getItem('index');
-}
-reset.onclick = () => {
-  index = 0;
-  box.innerHTML = index;
-  localStorage.setItem('index', index);
-};
+box.innerHTML = localStorage.getItem('txt');
 
 // function needleInHaystack(haystack, needle) {
 //   // tulis kode Anda di sini
