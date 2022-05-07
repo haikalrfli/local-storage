@@ -1,0 +1,44 @@
+body {
+  background-color: #51c26f;
+  width: 100%;
+}
+.btn {
+  width: 100px;
+  background-color: salmon;
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+
+.box {
+  margin: 2px auto;
+  width: 80px;
+  background-color: violet;
+  color: #fff;
+  font-weight: 800;
+}
+
+.reset {
+  margin: 20px auto 20px auto;
+  width: 80px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.container {
+  position: relative;
+  top: 300px;
+  z-index: 100;
+  color: rgb(231, 37, 37);
+}
+
+#canvas {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
